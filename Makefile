@@ -6,7 +6,7 @@
 #    By: gkintana <gkintana@student.42abudhabi.ae>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/28 18:55:33 by gkintana          #+#    #+#              #
-#    Updated: 2022/07/02 12:37:58 by gkintana         ###   ########.fr        #
+#    Updated: 2022/07/02 19:56:59 by gkintana         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,7 +67,8 @@ OBJ_BONUS	=	$(addprefix $(OBJ_DIR)/, $(BONUS:%c=%o))
 EXTRA		=	ft_atof.c \
 				ft_isspace.c \
 				ft_strcmp.c \
-				ft_swap.c
+				ft_swap.c \
+				get_next_line.c
 OBJ_EXTRA	=	$(addprefix $(OBJ_DIR)/, $(EXTRA:%c=%o))
 
 LIB_AR		=	ar rcs
