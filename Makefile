@@ -6,7 +6,7 @@
 #    By: gkintana <gkintana@student.42abudhabi.ae>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/28 18:55:33 by gkintana          #+#    #+#              #
-#    Updated: 2022/01/29 10:51:03 by gkintana         ###   ########.fr        #
+#    Updated: 2022/07/02 12:37:58 by gkintana         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -106,11 +106,11 @@ bonus:			$(OBJ_BONUS)
 
 clean:
 				@$(RM) $(OBJ_DIR)
-				@echo $(RED)"Deleted libft object files & object folder 🗃️"$(DEFAULT)
+				@echo $(RED)"Deleted libft object files & folder"$(DEFAULT)
 
 fclean:			clean
 				@$(RM) $(NAME)
-				@echo $(RED)"Deleted libft.a 😱"$(DEFAULT)
+				@echo $(RED)"Deleted libft archive"$(DEFAULT)
 
 re:				fclean all
 
@@ -121,4 +121,4 @@ norm:
 				@echo $(DEFAULT)$(YELLOW_BU)"libft .h files"$(DEFAULT)$(CYAN)
 				@norminette -R CheckDefine $(INC_DIR)/*.h
 
-.PHONY:			all clean fclean norm re bonus
+.PHONY:			all clean fclean bonus re norm

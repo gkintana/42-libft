@@ -6,7 +6,7 @@
 /*   By: gkintana <gkintana@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/27 09:49:13 by gkintana          #+#    #+#             */
-/*   Updated: 2022/01/29 10:41:04 by gkintana         ###   ########.fr       */
+/*   Updated: 2022/07/02 13:37:34 by gkintana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
+# include <stdint.h>
 # include <unistd.h>
 
 /*------------------------- PART 1 - LIBC FUNCTIONS -------------------------*/
